@@ -4,7 +4,6 @@
 .bannar{
     background-image: url('/images/banner/banner1.png');
     height: 800px;
-    width: 1440px;
     text-align: right;
 }
 .m-bannar{
@@ -139,4 +138,5 @@ form h1{
     border: 0;
     color: rgb(223, 65, 17);
 }
+    
 
