@@ -3,16 +3,15 @@
 }
 .bannar{
     background-image: url('/images/banner/banner1.png');
+    background-repeat: no-repeat;
     height: 800px;
     text-align: right;
-}
-.m-bannar{
-    padding-top: 200px;
-    padding-right: 200px;
+    padding-right: 210px;
+    padding-top: 210px;
 }
 .bannar-title{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 65px;
     line-height: 60px;
 }
 .sub-bannar-title{
@@ -32,12 +31,16 @@
 
 /* work at main styles */
 .between{
-    margin-top: 115px;
+    margin-top: -80px;
     margin-left: 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+/* .img-class{
+    background: rgb(189, 64, 6);
+    border-radius: 100%;
+} */
 
 .title{
     margin-right: 350px;
@@ -74,17 +77,19 @@
 .plan-discription{
     font-size: 25px;
 }
-.body-bannar{
-    margin: 110px 0 200px 200px;
-    padding-left: 60px;
-    padding-top: 50px;
-    height: 301px;
-    width: 1140px;
-    background-image: url('/images/watch.png');
-    background-repeat: no-repeat;
+/* .img-set{
+    margin-top: -200px;
+} */
+.bannar2{
+    margin-top: 100px;
+    margin-left: 210px;
+}
+.bannar2-title{
+    margin-top: -250px;
+    padding-left: 100px;
 }
 .body-bannar-title{
-    color: white;
+    color: rgb(170, 28, 28);
     font-weight: 700;
     font-size: 35px;
 }
@@ -98,7 +103,7 @@
 }
 .footer{
     padding: 120px 220px;
-    margin-top: -105px;
+    margin-top: 200px;
     height: 300px;
     color: white;
     background: black;
